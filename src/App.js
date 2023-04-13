@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+
+// Marcel Rodriguez
+//   3:50 PM
+// Peer Review by Marcel Rodriguez - The design is spot on with the design files given. The only critique is that the icon on the tab isn’t changed. Awesome work!
+
+
+
+
+import React from 'react';
 import './App.css';
+import GetAdvice from './components/fetchComponent/fetchComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    
+   <GetAdvice />
+   </div>
   );
 }
 
