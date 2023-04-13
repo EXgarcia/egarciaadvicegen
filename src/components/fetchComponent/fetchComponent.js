@@ -16,10 +16,10 @@ export default function GetAdvice(){
     
 
     return(
-        <main>
+        <main onLoad={fetchData}>
       
       <p className="advice-no">Advice #{advice.id}</p>
-       <h3 className="advice-text">"Click the button below for advice.{advice.advice}"</h3>
+       <h3 className="advice-text">"{advice.advice}"</h3>
        <div ><img src={line} alt='icon of dice' /></div>
        <button onClick={fetchData} class="btn"><img src={dice} alt='icon of dice' /></button>
       
